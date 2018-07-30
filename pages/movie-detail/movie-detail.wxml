@@ -1,0 +1,19 @@
+<!--pages/movie-detail/movie-detail.wxml-->
+<view class='container'>
+  <video style='width:100%;' src='{{movie.videoUrl}}' poster='{{movie.coverUrl}}' controls></video>  
+  <view class='movie-content'>
+    <view class='title'>{{movie.raw_title}}</view>
+    <view class='type'>
+      <text>{{movie.rate}}分 / {{movie.types}}</text>
+    </view>
+    <view class='pubdata'>
+      上映时间：{{movie.pubdate}}{{movie.country}}
+    </view>
+    <view class='summary'>
+      {{movie.summary}}
+    </view>
+    <view class='tags'>
+      <text wx:for="{{movie.tags}}" wx:key="index">{{item}} </text>
+    </view>
+  </view>
+</view>

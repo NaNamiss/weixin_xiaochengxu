@@ -1,0 +1,5 @@
+<!--pages/subject-list/subject-list.wxml-->
+
+<import src="/common/template/list.wxml" />
+
+<template is="movie-list" data="{{movies,loading}}" />

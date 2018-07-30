@@ -1,0 +1,30 @@
+/* pages/subject/suject.wxss */
+.container{
+  padding:40rpx 25px;
+}
+
+.type-item{
+  border-radius: 10rpx;
+  position: relative;
+  margin-bottom: 10rpx;
+}
+
+.type-item + .type-item-item{
+  margin-top:20rpx;
+}
+
+.type-img{
+  width: 100%;
+  height: 240rpx;
+  border-radius: 10rpx;
+  display: block;
+}
+
+.type-title{
+  position: absolute;
+  left: 30rpx;
+  bottom: 20rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: bold;
+}
